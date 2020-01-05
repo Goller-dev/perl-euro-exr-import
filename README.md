@@ -20,7 +20,7 @@ A perl script to save the currency exchange rates from the ECB in a MYSQL-Databa
 
    Open crontab via terminal: crontab -e
    Add a new line with the job and file path of the script:
-   # execute every MO - FR at 1 second after 16:00
+   \# execute every MO - FR at 1 second after 16:00
    1 0 16 ? * MON,TUE,WED,THU,FRI * perl /path/to/eurofx_import.pl
    Save and close file. Check with terminal command: crontab -l
 
